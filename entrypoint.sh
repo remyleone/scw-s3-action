@@ -31,7 +31,7 @@ aws_access_key_id = ${SCW_ACCESS_KEY}
 aws_secret_access_key = ${SCW_SECRET_KEY}" > ~/.aws/credentials
 
 # Run and preserve output for consumption by downstream actions
-/aws "$@" >"${GITHUB_WORKSPACE}/aws.output"
+aws "$@" >"${GITHUB_WORKSPACE}/aws.output"
 
 # Write output to STDOUT
 cat "${GITHUB_WORKSPACE}/aws.output"
