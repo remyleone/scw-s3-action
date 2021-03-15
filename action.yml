@@ -1,0 +1,9 @@
+name: 'Scaleway S3 command line'
+description: 'GitHub Action for AWS S3 CLI configured for Scaleway'
+author: Rémy Léone
+runs:
+  using: docker
+  image: Dockerfile
+branding:
+  icon: 'folder'
+  color: 'purple'
