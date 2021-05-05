@@ -2,7 +2,7 @@
 
 ```yaml
 - name: S3 bucket listing
-  uses: remyleone/scw-s3-action@master
+  uses: remyleone/scw-s3-action@v0.0.1
   with:
     args: s3 ls s3://mybucket
   env:
